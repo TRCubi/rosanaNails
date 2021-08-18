@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria De Trabajos</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logoFoto">
+            <img src="../images/logo.jpg" alt="logo">
+        </div>
+    </header>
+    <!--navegador -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-rosado border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand cabeza" href="../index.html">Rosana Nails</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./galeriadeTrabajo.html">Galeria de trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="./precio.html">Precio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+            <h1>Fotos de Trabajos Realizados</h1>
+            <div class="galeria">
+                <p>Aqui te dejamos un video sobre una manera perfecta de pintar tus uñas</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/JNbUGCg3mRo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+            </div>
+            <!-- Carrusel -->
+                <h2 class="paraCliente">Estas son algunas fotos de trabajaos ralizados por nosotros:
+                </h2>
+                    <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                        </div>
+                        <div class="carousel-inner espacio">
+                            <div class="carousel-item active">
+                                <img src="../images/trabajo.jpg" class="d-block w-25" alt="unas1">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/trabajo (2).jpg" class="d-block w-25" alt="unas2">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/trabajo (3).jpg" class="d-block w-25" alt="unas3">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/carousel4.jpg" class="d-block w-25" alt="unas4">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/carousel5.jpg" class="d-block w-25" alt="unas5">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="../images/carousel6.jpg" class="d-block w-25 " alt="unas6">
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Anterior</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Siguiente</span>
+                        </button>
+                    </div>
+    <footer class="container_fluid bg-rosado">
+        <div class="container border-bottom">
+            <div class="row">
+                <div class="col-12 col-md-5 footerTexto">
+                    <p>Rosana Cubilla 2021</p>
+                    <p>Cubidero@hotmail.com</p>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h3 class="col-12 col-md-6 text-center text-md-end">Redes Sociales</h3>
+                    <div class="col-12 col-md-8 d-flex flex-row justify-content-around justify-content-md-evenly">
+                        <a href="https://www.instagram.com/rosanacubilla.nails/?hles"><i class="bi-instagram"></i></a>
+                        <a href="https://www.facebook.com/rosana.cubilla"><i class="bi-facebook"></i></a>
+                        <i class="bi-whatsapp">344515455590</i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>

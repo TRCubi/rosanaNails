@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box ;
+    margin: 0;
+    padding: 0;
+}
+.color1{
+    color: #cdb4db;
+}
+.color2{
+    color: #ffb4a2;
+}
+.color3{
+    color: #c0fdff;
+}
+.color4{ 
+    color: #7b2cbf;
+}
+body {
+    /* background-image: url(https://i.pinimg.com/236x/f3/49/16/f34916e6a03838b5d2df0a7aeab9a28c.jpg);
+    background-repeat:repeat; */
+    background-color: #ffb4a2;
+}
+/* index */
+.comienzo{
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+    background-color: #c0fdff;
+}
+.logoFoto{
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    transition: 2s;
+}
+.logoFoto:hover{
+    height: 300px;
+}
+.comienzo p{
+    color:#7b2cbf;
+    font-size: 30px;
+}
+/*barra de nav*/
+.cabeza{
+    font-style: italic;
+    font-size: 3rem;
+}
+.bg-rosado{
+    background-color: #c0fdff;
+}
+nav * a:hover{
+    background: #7b2cbf;
+}
+/* index */
+.conocimiento{
+    display: block;
+    background-color: #c0fdff;
+    padding: 10px;
+    margin: 15px;
+    border: 2px solid black;
+}
+.conocimiento p{
+    color: #7b2cbf;
+    font-size: 30px;
+}
+.ubicacion{
+    display: block;
+    background-color: #c0fdff;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid black;
+}
+.ubicacion p{
+    color: #7b2cbf;
+    font-size: 30px;
+}
+h1{
+    display: block;
+    background-color: #c0fdff;
+    color: #ffb4a2;
+    font-size: 50px;
+    text-align: center;  
+}
+/* carta */
+.tarjetaTitulo{
+    font-size: 32px;
+}
+.tarjeta{
+    display: flex;
+    align-items: stretch;
+    justify-content:space-evenly ;
+}
+.card img:hover{
+    height: 250px;
+}
+h2{
+    color: #cdb4db;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 20px;
+}
+p{
+    color: #7b2cbf;
+    font-size: 20px;
+    font-family: serif;
+    line-height: 30px;
+    border-radius: 20px;
+}
+.parrafo1{
+    color: firebrick;
+
+}
+h3{
+    color: #8c68a1;
+    font-size: 40px;
+    text-align: center;
+    word-spacing: 20px;
+}
+/*flexbox precio*/
+.dinero{
+    display: flex;
+    flex: 2;
+    flex-flow: row nowrap ;
+    margin: 10px;
+    background-color: #c0fdff;
+    padding: 20px;
+    border: 2px solid black;
+    justify-content: space-between;
+}
+.dinero article{
+    background-color:#8c68a1;
+    color: #ffb4a2;
+    width: 250px;
+    height: 70px;
+    margin: 15px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 28px;
+    flex: 2;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.numeros{
+    display: flex;
+    flex-flow: row nowrap;
+    flex: 1;
+    background-color: #c0fdff;
+    border: 2px solid black;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 10px;
+}
+.numeros article{
+    background-color: #8c68a1;
+    color: #ffb4a2;
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 30px;
+}
+/* /Galeria/ */
+.carousel-inner img{
+    margin: auto;
+    border: 2px solid black;
+}
+.paraCliente{
+    color: #7b2cbf;
+}
+.galeria{
+    display: flex;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 15px;
+    flex-flow: column nowrap;
+    flex: 1;
+    background-color: #c0fdff;
+    align-items: center;
+}
+.galeria p{
+    color: #cdb4db;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.espacio{
+    padding: 20px;
+}
+.seccion{
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: #c0fdff;
+    width: 200px;
+}
+.footerTexto p{
+    color: #7b2cbf;
+}
+div i{
+    font-size: 2rem;
+}
+a{
+    text-decoration: none;
+}
+

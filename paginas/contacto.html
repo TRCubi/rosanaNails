@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="logoFoto">
+            <img src="../images/logo.jpg" alt="logo">
+        </div>
+    </header>
+    <!--navegador -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-rosado border-bottom">
+        <div class="container-fluid">
+            <a class="navbar-brand cabeza" href="../index.html">Rosana Nails</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav justify-content-end w-100">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./servicios.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"  href="./galeriadeTrabajo.html">Galeria de trabajo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./precio.html">Precio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+        
+        <h1>Contactate con nosotros</h1>
+        <div class="seccion">
+            <form >
+                    <label for="nombre">Nombre</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Ejemplo" required><br>
+                    <label for="casilla">Email</label><br>
+                    <input type="email" id="casilla" name="casilla" placeholder="Alguien@hotmail.com" required><br>
+                    <label for="anios">Edad</label><br>
+                    <input type="number" id="anios" name="anios" required><br>
+        
+            <p>¿Que tipo de servicio buscabas?</p>
+                    <input type="checkbox" name="servicio" id="servicio"><label for="kapping">Kapping</label><br>
+                    <input type="checkbox" name="unas" id="unas"><label for="unas">Semi Uñas</label><br>
+                    <input type="checkbox" name="pies" id="pies"><label for="pies">Semi Pies</label> <br>
+                    <input type="checkbox" name="todos" id="todos"><label for="todos">Todos</label><br>
+
+            <p>¿En que dia queres un turno?</p>
+
+                    <input type="radio" name="dia" id="dia1" ><label for="dia1">Lunes</label><br>
+                    <input type="radio" name="dia" id="dia2" ><label for="dia2">Martes</label><br>
+                    <input type="radio" name="dia" id="dia3" ><label for="dia3">Miercoles</label><br>
+                    <input type="radio" name="dia" id="dia4" ><label for="dia4">jueves</label><br>
+                    <input type="radio" name="dia" id="dia5" ><label for="dia5">viernes</label><br>
+            
+                    <label for="pago">Con que medio abonarias el turno:</label><br>
+                    <select name="pago" id="pago"><br>
+                    <option ></option><br>
+                    <option >Efectivo</option><br>
+                    <option >Tarjeta</option><br>
+                    <option >Transferencia Bancaria</option><br>
+                    </select><br>
+
+                    <label for="texto">Queres saber algo mas?</label><br>
+                    <textarea  id="texto" placeholder="escriba aqui..."></textarea><br>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">limpiar</button>
+            </form>
+        </div>
+        <footer class="container_fluid bg-rosado">
+            <div class="container border-bottom">
+                <div class="row">
+                    <div class="col-12 col-md-5 footerTexto">
+                        <p>Rosana Cubilla 2021</p>
+                        <p>Cubidero@hotmail.com</p>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="col-12 col-md-6 text-center text-md-end">Redes Sociales</h3>
+                        <div class="col-12 col-md-8 d-flex flex-row justify-content-around justify-content-md-evenly">
+                            <a href="https://www.instagram.com/rosanacubilla.nails/?hles"><i class="bi-instagram"></i></a>
+                            <a href="https://www.facebook.com/rosana.cubilla"><i class="bi-facebook"></i></a>
+                            <i class="bi-whatsapp">344515455590</i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+<script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
